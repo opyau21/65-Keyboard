@@ -30,4 +30,4 @@
 * [Logitech MX Master 3s Side Scroll](https://www.aliexpress.us/item/3256805736389448.html?spm=a2g0o.order_list.order_list_main.5.6ac41802afgPFI&gatewayAdapt=glo2usa): $33
 * [SOD-123 Diodes](https://www.adafruit.com/product/5099): $4.95 for 100
 * [Kailh Hotswap Sockets](https://cannonkeys.com/products/kailh-mx-hotswap-sockets?variant=40866971091055) $13.50 for 110
-* [EN05VS 5mm Rotary Encoder](https://www.mouser.com/ProductDetail/BI-Technologies-TT-Electronics/EN05VS1212NHH?qs=QNEnbhJQKvbP2E/Jiw9/dw%3D%3D&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=EN05VS1212NHH&utm_content=TT%20Electronics) $1.80 for 1, $1.60 for 10
+* [EN05VT 5mm Rotary Encoder](https://www.mouser.com/ProductDetail/BI-Technologies-TT-Electronics/EN05VS1212NHH?qs=QNEnbhJQKvbP2E/Jiw9/dw%3D%3D&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=EN05VS1212NHH&utm_content=TT%20Electronics) $1.80 for 1, $1.60 for 10
