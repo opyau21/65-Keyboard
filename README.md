@@ -20,6 +20,7 @@
   2. Backweight
   3. OLED Screen
 * Battery
+* Program Software QMK/VIA
 
 
 ## Current Component Costs:
