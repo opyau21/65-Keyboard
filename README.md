@@ -1,4 +1,11 @@
 # 65% Keyboard Project Files
+## Summary
+  Creating a 65% Keyboard from scratch without any prior engineering knowledge.
+
+## Next steps:
+  * Add Flex Cuts, learn to be more creative with trace routing
+  * Learn how to add SMD LEDS, Similar to above
+
 ## To Do List:
 * PCB:
   1. Side Rotary Encoder Implementation
