@@ -596,7 +596,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Switch Matrix",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -612,6 +612,14 @@
     [
       "bf36a815-88b9-4f95-84c3-6b01513341e6",
       "Root"
+    ],
+    [
+      "a99efd52-74f7-4830-b1d0-0b8eae050ef9",
+      "switch matrix"
+    ],
+    [
+      "af28faa1-3df3-4122-9f5e-d9c8a01b5710",
+      "LEDs"
     ]
   ],
   "text_variables": {}
