@@ -8,10 +8,10 @@
 
 ## To Do List:
 * PCB:
-  1. Side Rotary Encoder Implementation
+  1. Side Rotary Encoder Implementation -- Incorporated component, need to integrate wiring
   2. Flex Cuts
   3. Mounting System
-  4. LEDs
+  4. LEDs                               -- Incorporated component, need to integrate wiring
   5. Daughter Board
   6. Magnetic connection
 * Plate
