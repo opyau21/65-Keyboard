@@ -9,7 +9,7 @@
 ## To Do List:
 * PCB:
   1. Side Rotary Encoder Implementation -- Incorporated component, need to integrate wiring
-  2. Flex Cuts
+  2. Flex Cuts -- Done
   3. Mounting System
   4. LEDs                               -- Incorporated component, need to integrate wiring
   5. Daughter Board
@@ -31,3 +31,4 @@
 * [SOD-123 Diodes](https://www.adafruit.com/product/5099): $4.95 for 100
 * [Kailh Hotswap Sockets](https://cannonkeys.com/products/kailh-mx-hotswap-sockets?variant=40866971091055) $13.50 for 110
 * [EN05VT 5mm Rotary Encoder](https://www.mouser.com/ProductDetail/BI-Technologies-TT-Electronics/EN05VS1212NHH?qs=QNEnbhJQKvbP2E/Jiw9/dw%3D%3D&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=EN05VS1212NHH&utm_content=TT%20Electronics) $1.80 for 1, $1.60 for 10
+* Silicone Feet
