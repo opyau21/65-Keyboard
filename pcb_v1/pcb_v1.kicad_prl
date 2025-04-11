@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -169,8 +169,6 @@
       "Net-(D67-K)",
       "STBY",
       "+5V",
-      "unconnected-(C63-Pad2)",
-      "unconnected-(C77-Pad2)",
       "RGB",
       "Net-(LED1-DOUT)",
       "Net-(LED2-DOUT)",
