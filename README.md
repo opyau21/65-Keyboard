@@ -3,12 +3,9 @@
   Creating a 65% Keyboard from scratch without any prior engineering knowledge.
 
 ## Next steps:
-<<<<<<< HEAD
   * Connect LEDs to power and ground
 
-=======
-  * Learn how to add SMD LEDS, Similar to above
->>>>>>> 69e9e9a64d4c7cf8b1a1ed0189f9cd60fa8de20d
+
 
 ## To Do List:
 * PCB:
