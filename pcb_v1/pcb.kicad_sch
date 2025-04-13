@@ -10864,7 +10864,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c65ebf7b-d408-4574-af73-a0e4d88c53eb")
 		(property "Reference" "S70"
 			(at 77.47 168.7829 0)
