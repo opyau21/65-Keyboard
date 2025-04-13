@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -95,13 +95,11 @@
       "Column13",
       "Column14",
       "EN2",
-      "Ground",
       "EN1",
       "GND",
       "+3.3V",
       "unconnected-(U1-PB13-Pad35)",
       "unconnected-(U1-ANT_NC-Pad85)",
-      "unconnected-(U1-PA7-Pad52)",
       "unconnected-(U1-PE4-Pad42)",
       "unconnected-(U1-PB12-Pad41)",
       "unconnected-(U1-PD11-Pad82)",
@@ -111,7 +109,6 @@
       "unconnected-(LED1-DIN-Pad4)",
       "unconnected-(U1-PD14-Pad63)",
       "unconnected-(U1-PD4-Pad73)",
-      "unconnected-(U1-PA6-Pad53)",
       "unconnected-(U1-PD15-Pad76)",
       "unconnected-(U1-PA2-Pad1)",
       "unconnected-(U1-PB9-Pad11)",
@@ -257,6 +254,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
+      "ratsnest",
       "grid",
       "footprints_front",
       "footprints_back",
