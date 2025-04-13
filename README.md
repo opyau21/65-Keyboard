@@ -12,7 +12,7 @@
   1. Side Rotary Encoder Implementation -- Incorporated component, need to integrate wiring
   2. Flex Cuts -- Done
   3. Mounting System
-  4. LEDs                               -- Incorporated component, need to integrate wiring
+  4. LEDs                               -- Done
   5. Daughter Board
   6. Magnetic connection
 * Plate
