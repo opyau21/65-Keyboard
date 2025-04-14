@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -123,7 +123,6 @@
       "unconnected-(U1-PB5-Pad19)",
       "unconnected-(U1-PD10-Pad77)",
       "unconnected-(U1-NC-Pad44)",
-      "VCC",
       "unconnected-(U1-PD1-Pad34)",
       "unconnected-(U1-PE3-Pad72)",
       "unconnected-(U1-PC8-Pad83)",
@@ -140,13 +139,6 @@
       "VBUS",
       "unconnected-(U2-IO2-Pad3)",
       "BOOT0",
-      "ADC1",
-      "BATT",
-      "unconnected-(U1-PB3-Pad21)",
-      "Net-(U4-PROG)",
-      "CHRG",
-      "Net-(D67-K)",
-      "STBY",
       "RGB",
       "Net-(LED1-DOUT)",
       "Net-(LED2-DOUT)",
