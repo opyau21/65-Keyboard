@@ -26,10 +26,10 @@
 
 ## Current Component Costs:
 
-* [STM32WB55CGU6:](https://estore.st.com/en/stm32wb55cgu6-cpn.html) $4.00
+* [STM32WB5MMG:](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32WB5MMGH6TR?qs=DPoM0jnrROVhTOz01VaBhQ%3D%3D) $11.46
 * [LEDs:](https://www.aliexpress.us/item/2251832648616581.html?gatewayAdapt=glo2usa4itemAdapt) $2.29 per 70
 * [Logitech MX Master 3s Side Scroll](https://www.aliexpress.us/item/3256805736389448.html?spm=a2g0o.order_list.order_list_main.5.6ac41802afgPFI&gatewayAdapt=glo2usa): $33
 * [SOD-123 Diodes](https://www.adafruit.com/product/5099): $4.95 for 100
 * [Kailh Hotswap Sockets](https://cannonkeys.com/products/kailh-mx-hotswap-sockets?variant=40866971091055) $13.50 for 110
-* [EN05VT 5mm Rotary Encoder](https://www.mouser.com/ProductDetail/BI-Technologies-TT-Electronics/EN05VS1212NHH?qs=QNEnbhJQKvbP2E/Jiw9/dw%3D%3D&utm_source=netcomponents&utm_medium=aggregator&utm_campaign=EN05VS1212NHH&utm_content=TT%20Electronics) $1.80 for 1, $1.60 for 10
-* Silicone Feet
+* [Azoteq IQS6243200DNR](https://www.mouser.com/ProductDetail/Azoteq/IQS6243200DNR?qs=T%252BzbugeAwjhoI7UzUjJguA%3D%3D): $.92 for 1, $7.16 for 10
+* [Silicone Feet](https://kbdfans.com/products/rubber-feet-pads-hemispherical-shape-eva-silicone-anti-slip?variant=34477878739083): $1.00
