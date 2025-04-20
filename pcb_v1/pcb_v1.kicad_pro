@@ -653,6 +653,10 @@
     [
       "af28faa1-3df3-4122-9f5e-d9c8a01b5710",
       "LEDs"
+    ],
+    [
+      "fa53453f-f231-4d4e-b453-0aed75af6d09",
+      "Power"
     ]
   ],
   "text_variables": {}
