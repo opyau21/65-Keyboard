@@ -1,4 +1,4 @@
-27885727750800827
+27889218325981571
 AS5601-ASOM
 AS5601-ASOM
 
@@ -69509,6 +69509,13 @@ threaded screw
 0
 4
 1
+Murata Capacitor
+CAPC1608X90N
+
+
+0
+2
+2
 My_Footprints
 EN05VS1212NHH
 5mm Rotary Encoder, Top Adjust, Surface Mount
@@ -112017,6 +112024,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+Yageo Resistor
+RESC1607X60N
+
+
 0
 2
 2

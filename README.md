@@ -26,7 +26,8 @@
 
 ## Current Component Costs:
 
-* [STM32F103RET6TR:](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32F103RET6TR?qs=SU4Xa%252BYHGQoo%252BSdhqS8onA%3D%3D) 
+* [STM32F103RET6TR:](https://www.mouser.com/ProductDetail/STMicroelectronics/STM32F103RET6TR?qs=SU4Xa%252BYHGQoo%252BSdhqS8onA%3D%3D)
+* [ESP32 S3 Mini1](https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-S3-MINI-1-N8?qs=XAiT9M5g4x82rl6F%2FIYUQg%3D%3D)
 * [LEDs:](https://www.aliexpress.us/item/2251832648616581.html?gatewayAdapt=glo2usa4itemAdapt) $2.29 per 70
 * [Logitech MX Master 3s Side Scroll](https://www.aliexpress.us/item/3256805736389448.html?spm=a2g0o.order_list.order_list_main.5.6ac41802afgPFI&gatewayAdapt=glo2usa): $33
 * [SOD-123 Diodes](https://www.adafruit.com/product/5099): $4.95 for 100
