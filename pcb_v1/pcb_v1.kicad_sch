@@ -2018,8 +2018,8 @@
 		(uuid 5e861910-818b-40da-bc57-4edfc2314308)
 	)
 	(rectangle
-		(start 109.22 135.89)
-		(end 146.685 154.94)
+		(start 93.98 134.62)
+		(end 131.445 153.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -2043,7 +2043,7 @@
 	)
 	(text "Reset/Boot Switch"
 		(exclude_from_sim no)
-		(at 117.856 134.874 0)
+		(at 102.616 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,6 +2080,12 @@
 			)
 		)
 		(uuid "b9d115ed-cdd3-41b3-abb8-e8332563517b")
+	)
+	(junction
+		(at 199.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f7465af-df7e-40fb-a3ab-599d0c34acb5")
 	)
 	(junction
 		(at 259.08 137.16)
@@ -2190,7 +2196,7 @@
 		(uuid "d7614922-68f6-43c8-bed7-54873d381a2f")
 	)
 	(junction
-		(at 128.27 147.32)
+		(at 113.03 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d795c106-0e85-4a93-93fb-106736face76")
@@ -2206,12 +2212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df401f50-1589-4e87-ab16-a04c1ad499aa")
-	)
-	(junction
-		(at 198.12 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4b4e179-13e2-4bb8-ae41-fa93b958887b")
 	)
 	(junction
 		(at 265.43 113.03)
@@ -2279,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 101.6) (xy 198.12 101.6)
+			(xy 205.74 101.6) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2299,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 114.3) (xy 265.43 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20642e08-fb95-43e1-a362-1423466cc76c")
+	)
+	(wire
+		(pts
 			(xy 190.5 152.4) (xy 190.5 156.21)
 		)
 		(stroke
@@ -2309,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 186.69 101.6)
+			(xy 186.69 101.6) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 130.81 147.32)
+			(xy 113.03 146.05) (xy 115.57 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2629,7 +2639,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 146.05) (xy 128.27 147.32)
+			(xy 113.03 144.78) (xy 113.03 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2699,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 147.32) (xy 140.97 147.32)
+			(xy 123.19 146.05) (xy 125.73 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2719,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 198.12 114.3)
+			(xy 199.39 101.6) (xy 199.39 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2779,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 147.32) (xy 128.27 147.32)
+			(xy 110.49 146.05) (xy 113.03 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 147.32) (xy 115.57 147.32)
+			(xy 99.06 146.05) (xy 100.33 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +2991,7 @@
 	)
 	(global_label "RDY"
 		(shape input)
-		(at 198.12 114.3 270)
+		(at 199.39 114.3 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2991,7 +3001,7 @@
 		)
 		(uuid "45c86c91-72b0-4216-8274-c3ab1c3d7482")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 120.9138 90)
+			(at 199.39 120.9138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3077,7 @@
 	)
 	(global_label "BOOT0"
 		(shape input)
-		(at 128.27 146.05 90)
+		(at 113.03 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3077,7 +3087,7 @@
 		)
 		(uuid "97c58876-33de-4148-b73a-799a565ded8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 136.9567 90)
+			(at 113.03 135.6867 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 191.4652 148.59 0)
 			(effects
 				(font
@@ -3297,7 +3307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 214.3252 148.59 0)
 			(effects
 				(font
@@ -3374,7 +3384,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 237.1852 148.59 0)
 			(effects
 				(font
@@ -3426,7 +3436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 147.32 0)
+		(at 125.73 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3434,7 +3444,7 @@
 		(dnp no)
 		(uuid "139fa13d-4bcd-475c-b8d2-50b11e29f1f0")
 		(property "Reference" "#PWR015"
-			(at 140.97 153.67 0)
+			(at 125.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 151.638 0)
+			(at 125.73 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 147.32 0)
+			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3460,7 +3470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 147.32 0)
+			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3469,7 +3479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 147.32 0)
+			(at 125.73 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 265.43 113.03 0)
+		(at 265.43 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3778,7 +3788,7 @@
 		(dnp no)
 		(uuid "2a9dd979-75b8-482a-ada3-1be5d3e0ab7e")
 		(property "Reference" "#PWR020"
-			(at 265.43 119.38 0)
+			(at 265.43 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 117.348 0)
+			(at 265.43 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 113.03 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 113.03 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +3823,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 113.03 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3834,7 +3844,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 120.65 147.32 0)
+		(at 105.41 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3842,7 +3852,7 @@
 		(dnp no)
 		(uuid "3456db01-e0f3-4467-a492-5007fadf46f6")
 		(property "Reference" "SW2"
-			(at 120.65 137.668 0)
+			(at 105.41 136.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3860,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 120.65 140.208 0)
+			(at 105.41 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3868,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Button_TL3342"
-			(at 120.65 142.24 0)
+			(at 105.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 142.24 0)
+			(at 105.41 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3886,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 120.65 147.32 0)
+			(at 105.41 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3911,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Resistor")
-		(at 134.62 147.32 0)
+		(at 119.38 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3909,7 +3919,7 @@
 		(dnp no)
 		(uuid "47475ed6-cc13-4b97-9df8-7710d5675f3f")
 		(property "Reference" "R1"
-			(at 134.62 142.24 0)
+			(at 119.38 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,15 +3927,15 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 134.62 144.78 0)
+			(at 119.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.62 149.098 0)
+		(property "Footprint" "Yageo Resistor:RESC1607X60N"
+			(at 119.38 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 147.32 90)
+			(at 119.38 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 147.32 0)
+			(at 119.38 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4057,7 +4067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 271.4752 148.59 0)
 			(effects
 				(font
@@ -4134,7 +4144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 248.6152 148.59 0)
 			(effects
 				(font
@@ -4275,7 +4285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 266.3952 109.22 0)
 			(effects
 				(font
@@ -4327,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 114.3 147.32 0)
+		(at 99.06 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4335,7 +4345,7 @@
 		(dnp no)
 		(uuid "6bba6342-41a5-403f-9613-eccc0232a62e")
 		(property "Reference" "#PWR014"
-			(at 114.3 151.13 0)
+			(at 99.06 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4354,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 114.046 143.51 0)
+			(at 98.806 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 147.32 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4361,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 147.32 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 114.3 147.32 0)
+			(at 99.06 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4483,7 +4493,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Yageo Resistor:RESC1607X60N"
 			(at 200.152 91.44 90)
 			(effects
 				(font
@@ -4552,7 +4562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 276.5552 104.14 0)
 			(effects
 				(font
@@ -4693,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 253.6952 109.22 0)
 			(effects
 				(font
@@ -4857,7 +4867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 225.7552 148.59 0)
 			(effects
 				(font
@@ -4934,7 +4944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 260.0452 148.59 0)
 			(effects
 				(font
@@ -5011,7 +5021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Yageo Resistor:RESC1607X60N"
 			(at 184.912 91.44 90)
 			(effects
 				(font
@@ -5080,7 +5090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
 			(at 202.8952 148.59 0)
 			(effects
 				(font
@@ -5157,7 +5167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Yageo Resistor:RESC1607X60N"
 			(at 192.532 91.44 90)
 			(effects
 				(font
@@ -5200,8 +5210,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 17.78)
-		(size 73.66 166.37)
+		(at 17.78 19.05)
+		(size 73.66 176.53)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5216,7 +5226,7 @@
 		)
 		(uuid "72f05775-4420-4660-b628-1f03fc3d3776")
 		(property "Sheetname" "MCU + Bluetooth"
-			(at 17.78 17.0684 0)
+			(at 17.78 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5235,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 17.78 184.7346 0)
+			(at 17.78 196.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
