@@ -23,6 +23,26 @@
 * Battery
 * Program Software QMK/VIA
 
+## BOM:
+| Item # | Ref Des | Qty | Manufacturer        | Vendor     | Mfg Part #         | Description/Value                                                                     | Package | Type | Include in PCB |
+| ------ | ------- | --- | ------------------- | ---------- | ------------------ | ------------------------------------------------------------------------------------- | ------- | ---- | -------------- |
+| 1      |         | 1   | STMicroelectronics  | Mouser     | STM32F103RET6TR    | ARM Microcontrollers - MCU 32BIT Cortex M3 H/D Performance LINE                       | LQFP-64 | SMD  | Yes            |
+| 2      |         | 1   | Espressif Systems   | Mouser     | ESP32-S3-MINI-1-N8 | Multiprotocol Modules SMD module, ESP32-S3FN8, 8 MB SPI flash, PCB antenna            |         | SMD  | No             |
+| 3      |         | 1   | Adafruit            | Mouser     | 5099               | Adafruit Accessories 1N4148 SMT SOD-123 Diodes - 100 Pack                             |         | SMD  | No             |
+| 4      |         | 1   | Kailh               | Cannonkeys |                    | Kailh MX Hotswap Sockets - 110 Pack                                                   |         |      | No             |
+| 5      |         | 1   | Azoteq              | Mouser     | IQS6243200DNR      | Board Mount Motion & Position Sensors 2 x Capacitive, Hall rotation                   | DFN-10  | SMD  | Yes            |
+| 6      |         |     | Murata Electronics  | Mouser     | GCM188R71C104KA37J | Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 16 VDC 10% 0603 X7R AEC-Q200      | 0603    | SMD  | No             |
+| 7      |         |     | Murata Electronics  | Mouser     | GRT188C80J475KE01D | Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7 uF 6.3 VDC 10% 0603 X6S AEC-Q200     | 0603    | SMD  | No             |
+| 8      |         |     | Murata Electronics  | Mouser     | GCE188R72A103MA01D | Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.01 uF 100 VDC 20% 0603 X7R AEC-Q200    | 0603    | SMD  | No             |
+| 9      |         |     | Murata Electronics  | Mouser     | GCM1885C1H101FA16D | Multilayer Ceramic Capacitors MLCC - SMD/SMT 100 pF 50 VDC 1% 0603 C0G (NP0) AEC-Q200 | 0603    | SMD  | No             |
+| 10     |         |     | Murata Electronics  | Mouser     | GRJ188R60J106ME11D | Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 6.3 VDC 20% 0603 X5R               | 0603    | SMD  | No             |
+| 11     |         |     | Yageo               | Mouser     | RC0603FR-0710KL    | Thick Film Resistors - SMD 10 kOhms 100mW 0603 1%                                     | 0603    | SMD  | No             |
+| 12     |         |     | Yageo               | Mouser     | AC0603FR-07470RL   | Thick Film Resistors - SMD 470 Ohms 100mW 0603 1% AEC-Q200 Standard Power Version     | 0603    | SMD  | No             |
+| 13     |         |     | Yageo               | Mouser     | AR0603FR-072KL     | Thick Film Resistors - SMD 2k Ohms 1/10 W 0603% 1% AEC-Q200                           | 0603    | SMD  | No             |
+| 14     |         |     | Yageo               | Mouser     | RC0603FR-074K7L    | Thick Film Resistors - SMD 4.7 kOhms 100mW 0603 1%                                    | 0603    | SMD  | No             |
+| 15     |         | 1   | TPOWER              |            | TP4056             | 4V~6V Lithium-ion/Polymer 1 1A ESOP-8 Battery Management ROHS                         | ESOP-8  | SMD  | Yes            |
+| 16     |         | 1   | Analog Devices Inc. | Mouser     | MAX17048G+T10      | Battery Management 3 A 1-Cell/2-Cell Fuel Gauge with ModelGauge                       | TDFN-8  | SMD  | Yes            |
+
 
 ## Current Component Costs:
 
