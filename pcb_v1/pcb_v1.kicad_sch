@@ -2041,9 +2041,9 @@
 		)
 		(uuid c1f6f964-eaeb-4546-824d-e1a62bf41369)
 	)
-	(text "Reset/Boot Switch"
+	(text "Boot Switch"
 		(exclude_from_sim no)
-		(at 102.616 133.604 0)
+		(at 99.568 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
