@@ -26,7 +26,7 @@
 ## BOM:
 | Item # | Ref Des | Qty | Manufacturer        | Vendor     | Mfg Part #         | Description/Value                                                                     | Package | Type | Include in PCB |
 | ------ | ------- | --- | ------------------- | ---------- | ------------------ | ------------------------------------------------------------------------------------- | ------- | ---- | -------------- |
-| 1      |         | 1   | STMicroelectronics  | Mouser     | STM32F103RET6TR    | ARM Microcontrollers - MCU 32BIT Cortex M3 H/D Performance LINE                       | LQFP-64 | SMD  | Yes            |
+| 1      |U6       | 1   | STMicroelectronics  | Mouser     | STM32F103RET6TR    | ARM Microcontrollers - MCU 32BIT Cortex M3 H/D Performance LINE                       | LQFP-64 | SMD  | Yes            |
 | 2      |         | 1   | Espressif Systems   | Mouser     | ESP32-S3-MINI-1-N8 | Multiprotocol Modules SMD module, ESP32-S3FN8, 8 MB SPI flash, PCB antenna            |         | SMD  | No             |
 | 3      |         | 1   | Adafruit            | Mouser     | 5099               | Adafruit Accessories 1N4148 SMT SOD-123 Diodes - 100 Pack                             |         | SMD  | No             |
 | 4      |         | 1   | Kailh               | Cannonkeys |                    | Kailh MX Hotswap Sockets - 110 Pack                                                   |         |      | No             |
