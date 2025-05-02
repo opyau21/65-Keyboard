@@ -5,6 +5,293 @@
 	(uuid "bf36a815-88b9-4f95-84c3-6b01513341e6")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x07"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2006,8 +2293,8 @@
 		(uuid 25f7ca9e-0679-4e8a-98d1-1ca6fcace8ce)
 	)
 	(rectangle
-		(start 109.855 159.385)
-		(end 153.67 196.85)
+		(start 95.885 159.385)
+		(end 139.7 196.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -2063,7 +2350,7 @@
 	)
 	(text "ESD Protection"
 		(exclude_from_sim no)
-		(at 116.84 158.496 0)
+		(at 102.87 158.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2092,12 +2379,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c1d28c-b0c2-433d-b21d-82b28917ceb6")
-	)
-	(junction
-		(at 275.59 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2be8dd17-f3bd-429c-842d-7856c2616518")
 	)
 	(junction
 		(at 201.93 137.16)
@@ -2202,16 +2483,16 @@
 		(uuid "d795c106-0e85-4a93-93fb-106736face76")
 	)
 	(junction
-		(at 275.59 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd5fad35-3245-4cc1-adf2-a4cb4adc203a")
-	)
-	(junction
 		(at 247.65 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df401f50-1589-4e87-ab16-a04c1ad499aa")
+	)
+	(junction
+		(at 275.59 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f478fb4a-9ec9-49b5-801f-811c813ecb5c")
 	)
 	(junction
 		(at 265.43 113.03)
@@ -2220,11 +2501,11 @@
 		(uuid "f62971b0-28ec-4b04-8c69-d938528ac3d2")
 	)
 	(no_connect
-		(at 119.38 181.61)
+		(at 105.41 181.61)
 		(uuid "035cd168-720d-4182-8213-7278cf06929d")
 	)
 	(no_connect
-		(at 144.78 176.53)
+		(at 130.81 176.53)
 		(uuid "214d236b-e2e4-4f8f-ad7c-e6ce90b1b74c")
 	)
 	(wire
@@ -2259,7 +2540,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 166.37) (xy 132.08 166.37)
+			(xy 166.37 191.77) (xy 166.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b90ec81-93a4-435c-a9cb-f93d9b218563")
+	)
+	(wire
+		(pts
+			(xy 124.46 166.37) (xy 118.11 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2316,6 +2607,26 @@
 			(type default)
 		)
 		(uuid "2616dd07-6444-49cc-b964-a6d0b5443e83")
+	)
+	(wire
+		(pts
+			(xy 163.83 191.77) (xy 163.83 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263c6dbf-6c57-4ecd-8125-ec87bfa84066")
+	)
+	(wire
+		(pts
+			(xy 156.21 185.42) (xy 156.21 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fdc4af1-f7e6-4acf-981f-0b3e1408571d")
 	)
 	(wire
 		(pts
@@ -2399,6 +2710,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 191.77) (xy 161.29 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500edcf8-1108-437a-8944-8fa5b3911fec")
+	)
+	(wire
+		(pts
 			(xy 194.31 99.06) (xy 194.31 95.25)
 		)
 		(stroke
@@ -2459,7 +2780,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 191.77) (xy 138.43 191.77)
+			(xy 144.78 185.42) (xy 151.13 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62777b4c-93fc-40b2-abb6-d9ab6268732c")
+	)
+	(wire
+		(pts
+			(xy 118.11 191.77) (xy 124.46 191.77)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2820,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 92.71) (xy 275.59 96.52)
+			(xy 275.59 91.44) (xy 275.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2539,13 +2870,13 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 87.63) (xy 275.59 91.44)
+			(xy 149.86 186.69) (xy 153.67 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c927159-e7b5-48cc-a26e-541da4157eda")
+		(uuid "8a7ae8eb-86f6-4308-a475-a20b3e90fc99")
 	)
 	(wire
 		(pts
@@ -2556,16 +2887,6 @@
 			(type default)
 		)
 		(uuid "8a9d58e4-bddb-4e57-a5cf-6532ea27bdd4")
-	)
-	(wire
-		(pts
-			(xy 279.4 92.71) (xy 275.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef521ca-93c2-472b-8c1f-61e6f0fa305b")
 	)
 	(wire
 		(pts
@@ -2626,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "9f93be76-91ea-4547-87f7-1abddd3318ee")
+	)
+	(wire
+		(pts
+			(xy 158.75 191.77) (xy 158.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ab1d7d-e8cd-4975-862f-b13faf2542c9")
 	)
 	(wire
 		(pts
@@ -2749,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 186.69) (xy 153.67 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4e43df-7fbf-4ea6-b365-8b80c47080b4")
+	)
+	(wire
+		(pts
 			(xy 224.79 137.16) (xy 236.22 137.16)
 		)
 		(stroke
@@ -2769,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 176.53) (xy 119.38 176.53)
+			(xy 102.87 176.53) (xy 105.41 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 181.61) (xy 144.78 181.61)
+			(xy 133.35 181.61) (xy 130.81 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2879,16 +3220,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 91.44) (xy 275.59 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de38e3d5-3b64-4919-b90c-47edf8328d28")
-	)
-	(wire
-		(pts
 			(xy 99.06 146.05) (xy 100.33 146.05)
 		)
 		(stroke
@@ -2929,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 88.9) (xy 275.59 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea258a71-230f-42e3-958a-092a94664411")
+	)
+	(wire
+		(pts
 			(xy 194.31 86.36) (xy 194.31 87.63)
 		)
 		(stroke
@@ -2946,6 +3287,16 @@
 			(type default)
 		)
 		(uuid "eea4404a-98f8-48e7-b5a5-8d1447616ebf")
+	)
+	(wire
+		(pts
+			(xy 149.86 190.5) (xy 149.86 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef96d06f-67ec-425f-ba74-0b6fe84a9a59")
 	)
 	(wire
 		(pts
@@ -2967,24 +3318,24 @@
 		)
 		(uuid "f3bbe520-cdba-4172-820b-a21879407e0e")
 	)
-	(global_label "VDDHI"
+	(global_label "CS"
 		(shape input)
-		(at 275.59 87.63 90)
+		(at 161.29 191.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "130e981e-0fe5-4063-83f5-80d39bce0e44")
+		(uuid "08eb00b6-875b-4478-a254-f25849b727f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.59 79.0809 90)
+			(at 161.29 197.2347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3011,9 +3362,31 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 156.21 191.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "620e05e1-1bdf-49a3-85b4-3096fcac1b49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 198.3233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
-		(at 116.84 176.53 180)
+		(at 102.87 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3022,7 +3395,7 @@
 		)
 		(uuid "68ddfcca-0b0d-4145-a3aa-d8694efa92f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 176.53 0)
+			(at 102.87 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,9 +3426,9 @@
 			)
 		)
 	)
-	(global_label "VDDHI"
+	(global_label "DC"
 		(shape input)
-		(at 194.31 81.28 180)
+		(at 163.83 191.77 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3063,9 +3436,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9374dce0-3d33-42d2-8d72-577ddefc5a38")
+		(uuid "96ffa79b-0e29-43b3-bd6a-4127e2c63a9b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.7609 81.28 0)
+			(at 163.83 197.2952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3097,6 +3470,28 @@
 			)
 		)
 	)
+	(global_label "RST"
+		(shape input)
+		(at 166.37 191.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ff066fd-6fee-414d-8a3b-3a0ce7c35a27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 198.2023 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 201.93 113.03 270)
@@ -3119,9 +3514,31 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 158.75 191.77 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cefa75ed-711b-4573-aaf7-31e22f301670")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 198.2628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape input)
-		(at 147.32 181.61 0)
+		(at 133.35 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3130,7 +3547,7 @@
 		)
 		(uuid "f5f66e45-a3aa-400a-805f-407ad3fcef66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 181.61 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3166,7 +3583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 191.4652 148.59 0)
 			(effects
 				(font
@@ -3307,7 +3724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 214.3252 148.59 0)
 			(effects
 				(font
@@ -3384,7 +3801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 237.1852 148.59 0)
 			(effects
 				(font
@@ -3843,6 +4260,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3432c60c-4c24-427f-abae-6b9844b4cd7d")
+		(property "Reference" "#PWR011"
+			(at 149.86 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.987 193.7512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3716df05-ef93-433a-866b-53efc98533ce")
+		)
+		(instances
+			(project "pcb_v1"
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 105.41 146.05 0)
 		(unit 1)
@@ -3910,6 +4391,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x07")
+		(at 158.75 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f28c1c4-26eb-491a-a75d-4d4d89c053cc")
+		(property "Reference" "J3"
+			(at 158.75 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07"
+			(at 158.75 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal"
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 158.75 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b0996cff-f5af-4c1c-9e15-50c4cbc2c61a")
+		)
+		(pin "1"
+			(uuid "249363e4-0352-4154-b0b3-68d707c3d7ed")
+		)
+		(pin "2"
+			(uuid "b643cf6f-d040-4156-8b41-26afce2077e8")
+		)
+		(pin "6"
+			(uuid "082d2993-b5f5-44c7-9a76-c45232edc8ff")
+		)
+		(pin "4"
+			(uuid "15e73e54-ba37-46da-9109-1cc363a117d1")
+		)
+		(pin "5"
+			(uuid "3cb4c9e8-da48-4596-bbc0-f244c5a6c4c6")
+		)
+		(pin "7"
+			(uuid "2873ee3b-d6d4-4544-8a1d-85c5c5449897")
+		)
+		(instances
+			(project ""
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Resistor")
 		(at 119.38 146.05 0)
 		(unit 1)
@@ -3934,7 +4498,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Yageo Resistor:RESC1607X60N"
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
 			(at 119.38 147.828 0)
 			(effects
 				(font
@@ -4067,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 271.4752 148.59 0)
 			(effects
 				(font
@@ -4144,7 +4708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 248.6152 148.59 0)
 			(effects
 				(font
@@ -4196,7 +4760,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 138.43 166.37 0)
+		(at 124.46 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +4768,7 @@
 		(dnp no)
 		(uuid "4eed0b7f-4ed3-49ab-b568-e8a184057b2e")
 		(property "Reference" "#PWR08"
-			(at 138.43 170.18 0)
+			(at 124.46 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4777,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 138.811 163.1188 0)
+			(at 124.841 163.1188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 166.37 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 166.37 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 166.37 0)
+			(at 124.46 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 266.3952 109.22 0)
 			(effects
 				(font
@@ -4402,7 +4966,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 279.4 92.71 270)
+		(at 275.59 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4419,7 +4983,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 283.464 92.964 0)
+			(at 275.844 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4427,7 +4991,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 92.71 0)
+			(at 275.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +5000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 92.71 0)
+			(at 275.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4445,7 +5009,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 279.4 92.71 0)
+			(at 275.59 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +5057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yageo Resistor:RESC1607X60N"
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
 			(at 200.152 91.44 90)
 			(effects
 				(font
@@ -4562,7 +5126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 276.5552 104.14 0)
 			(effects
 				(font
@@ -4613,16 +5177,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 191.77 0)
+		(lib_id "power:+3.3V")
+		(at 144.78 185.42 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a0b6dec0-bbbd-4d9f-8936-9753720a47a6")
-		(property "Reference" "#PWR09"
-			(at 138.43 198.12 0)
+		(uuid "9e0d3fbe-f332-4595-ae00-6f0e058e818c")
+		(property "Reference" "#PWR0227"
+			(at 144.78 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,8 +5194,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 138.557 195.0212 0)
+		(property "Value" "+3.3V"
+			(at 145.034 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +5203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 191.77 0)
+			(at 144.78 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5212,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 191.77 0)
+			(at 144.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a5570db-18a0-440d-9248-cb7fc0ca2e83")
+		)
+		(instances
+			(project "pcb_v1"
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0b6dec0-bbbd-4d9f-8936-9753720a47a6")
+		(property "Reference" "#PWR09"
+			(at 124.46 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.587 195.0212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5286,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 191.77 0)
+			(at 124.46 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 253.6952 109.22 0)
 			(effects
 				(font
@@ -4755,7 +5384,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SRV05-4")
-		(at 132.08 179.07 0)
+		(at 118.11 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4763,7 +5392,7 @@
 		(dnp no)
 		(uuid "b5bb968e-59b6-46da-be14-ac7d9d675568")
 		(property "Reference" "U2"
-			(at 132.08 161.7726 0)
+			(at 118.11 161.7726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +5400,7 @@
 			)
 		)
 		(property "Value" "SRV05-4"
-			(at 132.08 164.084 0)
+			(at 118.11 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +5408,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 149.86 190.5 0)
+			(at 135.89 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4788,7 +5417,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF"
-			(at 132.08 179.07 0)
+			(at 118.11 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4797,7 +5426,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 179.07 0)
+			(at 118.11 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +5434,7 @@
 			)
 		)
 		(property "LCSC Part #" "C85364"
-			(at 132.08 179.07 0)
+			(at 118.11 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,7 +5496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 225.7552 148.59 0)
 			(effects
 				(font
@@ -4944,7 +5573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 260.0452 148.59 0)
 			(effects
 				(font
@@ -4995,6 +5624,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 194.31 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2fb732f-a474-4441-a02b-93bbaf26bd64")
+		(property "Reference" "#PWR022"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 194.564 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f6252c2-553d-471b-97a4-9812616e9428")
+		)
+		(instances
+			(project "pcb_v1"
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 186.69 91.44 0)
 		(unit 1)
@@ -5021,7 +5715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yageo Resistor:RESC1607X60N"
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
 			(at 184.912 91.44 90)
 			(effects
 				(font
@@ -5090,7 +5784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Murata Capacitor:CAPC1608X90N"
+		(property "Footprint" "GRM1555C2A101GA01D:CAPC1005X55N"
 			(at 202.8952 148.59 0)
 			(effects
 				(font
@@ -5167,7 +5861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Yageo Resistor:RESC1607X60N"
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
 			(at 192.532 91.44 90)
 			(effects
 				(font
@@ -5352,7 +6046,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "fa53453f-f231-4d4e-b453-0aed75af6d09")
-		(property "Sheetname" "Power"
+		(property "Sheetname" "Power and Fuel Gauge"
 			(at 99.06 18.3384 0)
 			(effects
 				(font
