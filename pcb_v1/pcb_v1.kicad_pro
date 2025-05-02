@@ -43,9 +43,9 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_size_h": 0.381,
+        "silk_text_size_v": 0.381,
+        "silk_text_thickness": 0.09525,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.5
@@ -130,7 +130,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.381,
+        "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -138,7 +138,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.381,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -629,6 +629,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Switch Matrix",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -653,6 +661,14 @@
     [
       "af28faa1-3df3-4122-9f5e-d9c8a01b5710",
       "LEDs"
+    ],
+    [
+      "72f05775-4420-4660-b628-1f03fc3d3776",
+      "MCU + Bluetooth"
+    ],
+    [
+      "fa53453f-f231-4d4e-b453-0aed75af6d09",
+      "Power and Fuel Gauge"
     ]
   ],
   "text_variables": {}
