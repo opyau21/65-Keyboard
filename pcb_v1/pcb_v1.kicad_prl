@@ -38,7 +38,6 @@
       "Net-(D26-A)",
       "Net-(D27-A)",
       "Net-(D28-A)",
-      "Net-(D29-A)",
       "Net-(D30-A)",
       "Row2",
       "Net-(D31-A)",
@@ -150,7 +149,6 @@
       "Net-(LED25-DOUT)",
       "Net-(LED26-DOUT)",
       "Net-(LED27-DOUT)",
-      "Net-(LED28-DOUT)",
       "Row 2.3",
       "Net-(LED30-DOUT)",
       "Net-(LED31-DOUT)",
@@ -209,7 +207,6 @@
       "unconnected-(U4-IO34-Pad29)",
       "unconnected-(U4-IO4-Pad8)",
       "unconnected-(U4-IO7-Pad11)",
-      "unconnected-(U6-PA7-Pad23)",
       "SDA",
       "Net-(U5-STAT)",
       "SCL",
@@ -234,7 +231,6 @@
       "unconnected-(U6-PD1-Pad6)",
       "unconnected-(U6-PB13-Pad34)",
       "unconnected-(U6-PA3-Pad17)",
-      "unconnected-(U6-PA5-Pad21)",
       "unconnected-(U6-PA0-Pad14)",
       "unconnected-(U6-PB15-Pad36)",
       "unconnected-(U6-PB14-Pad35)",
@@ -244,7 +240,9 @@
       "NRST",
       "DC",
       "CS",
-      "RST"
+      "RST",
+      "DIN",
+      "SCLK"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -290,7 +288,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd57d_f77d7fdf",
+    "visible_layers": "ffffffff_ffffffff_ffffd57d_f77d7fff",
     "zone_display_mode": 0
   },
   "git": {
