@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 25,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -226,7 +226,6 @@
       "Net-(LED61-DOUT)",
       "unconnected-(U6-PA13-Pad46)",
       "unconnected-(U6-PA2-Pad16)",
-      "unconnected-(U6-PC12-Pad53)",
       "unconnected-(U6-PA14-Pad49)",
       "unconnected-(U6-PD1-Pad6)",
       "unconnected-(U6-PB13-Pad34)",
@@ -242,7 +241,12 @@
       "CS",
       "RST",
       "DIN",
-      "SCLK"
+      "SCLK",
+      "Net-(D67-A)",
+      "Net-(D68-A)",
+      "Net-(LED43-DOUT)",
+      "Net-(LED57-DOUT)",
+      "Column15"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -288,7 +292,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd57d_f77d7fff",
+    "visible_layers": "ffffffff_ffffffff_ffffd57d_ff5dffff",
     "zone_display_mode": 0
   },
   "git": {
