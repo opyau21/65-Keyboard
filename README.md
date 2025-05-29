@@ -8,13 +8,7 @@
 
 
 ## To Do List:
-* PCB:
-  1. Side Rotary Encoder Implementation -- Incorporated component, need to integrate wiring
-  2. Flex Cuts -- Done
-  3. Mounting System
-  4. LEDs                               -- Done
-  5. Daughter Board
-  6. Magnetic connection
+* PCB: Finished, not yet tested
 * Plate
 * Case
   1. Design
