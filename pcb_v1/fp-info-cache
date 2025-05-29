@@ -1,4 +1,4 @@
-27894454730342740
+27906692107085456
 AS5601-ASOM
 AS5601-ASOM
 
@@ -59065,6 +59065,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GRM1555C2A101GA01D
+CAPC1005X55N
+
+
+0
+2
+2
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -66702,6 +66709,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MAX17048G
+SON50P200X200X80-9N
+
+
+0
+9
+9
 MAX17048G_T10
 SON50P200X200X80-9N
 
@@ -94884,6 +94898,13 @@ Potentiometer vertical vishay
 0
 3
 3
+RC0402FR-7D4K7L
+RESC1005X40N
+
+
+0
+2
+2
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -105244,6 +105265,34 @@ Logo WEEE
 0
 0
 0
+TPB4056A20_ES1R
+ESOP-8_TPK
+
+TPB4056A20-ES1R 
+0
+9
+9
+TPB4056A20_ES1R
+ESOP-8_TPK-L
+
+TPB4056A20-ES1R 
+0
+9
+9
+TPB4056A20_ES1R
+ESOP-8_TPK-M
+
+TPB4056A20-ES1R 
+0
+9
+9
+TPB4056B2X_ES1R
+SOIC127P600X170-9N
+
+
+0
+9
+9
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
