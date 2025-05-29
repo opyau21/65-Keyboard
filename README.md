@@ -3,12 +3,11 @@
   Creating a 65% Keyboard from scratch without any prior engineering knowledge.
 
 ## Next steps:
-  * Connect LEDs to power and ground
-
-
+  * Write Software for ESP32 S3 Mini 1 and STM32
 
 ## To Do List:
 * PCB: Finished, not yet tested
+* Software
 * Plate
 * Case
   1. Design
