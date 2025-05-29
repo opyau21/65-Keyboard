@@ -5817,10 +5817,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3c2d59f0-dfc7-4840-9f51-65265e058f1c")
 		(property "Reference" "S66"
-			(at 220.98 118.11 0)
+			(at 220.98 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13176,7 +13175,7 @@
 		(dnp no)
 		(uuid "f0302988-2ce5-4f93-8ce1-8a96beac54da")
 		(property "Reference" "S65"
-			(at 220.98 118.11 0)
+			(at 209.804 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)
