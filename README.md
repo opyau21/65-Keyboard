@@ -7,7 +7,12 @@
 
 ## To Do List:
 * PCB: Finished, not yet tested
-* Software
+* Software (In Order)
+  1. Keymaps
+  2. OLED
+  3. Fuel Gauge
+  4. Magnetic Encoder
+  5. Bluetooth
 * Plate
 * Case
   1. Design
