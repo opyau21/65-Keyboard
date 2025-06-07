@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 2,
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_netclasses": [
       "Default"
@@ -245,7 +245,8 @@
       "Net-(U5-IREF)",
       "Net-(U5-IMIN)",
       "PPR",
-      "CHG"
+      "CHG",
+      "Net-(U6-PA15)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -291,7 +292,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd57f_dffdffff",
+    "visible_layers": "00000000_00000000_55555555_57555555",
     "zone_display_mode": 0
   },
   "git": {
