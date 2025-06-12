@@ -3857,7 +3857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S7B-PH-SM4-TB_1x07-1MP_P2.00mm_Horizontal"
 			(at 189.23 139.7 0)
 			(effects
 				(font

@@ -1,4 +1,11 @@
-27906692107085456
+27917188689811426
+AMS1117-3.3
+SOT229P700X180-4N
+
+
+0
+4
+4
 AS5601-ASOM
 AS5601-ASOM
 
@@ -20,6 +27,13 @@ audio belton reverb
 0
 7
 7
+BQ24092DGQR
+IC_XTR111AIDGQR
+
+
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -66723,6 +66737,13 @@ SON50P200X200X80-9N
 0
 9
 9
+MF_FSMF050X_2
+0603-F1608X100N
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -112104,3 +112125,24 @@ RESC1607X60N
 0
 2
 2
+footprints
+WSON10_DLH_TEX
+
+BQ25185DLHR 
+0
+11
+11
+footprints
+WSON10_DLH_TEX-L
+
+BQ25185DLHR 
+0
+11
+11
+footprints
+WSON10_DLH_TEX-M
+
+BQ25185DLHR 
+0
+11
+11
