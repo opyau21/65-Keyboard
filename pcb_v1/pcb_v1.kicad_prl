@@ -1,8 +1,8 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "All Copper Layers",
-    "auto_track_width": true,
+    "active_layer": 6,
+    "active_layer_preset": "",
+    "auto_track_width": false,
     "hidden_netclasses": [
       "Default"
     ],
@@ -96,7 +96,6 @@
       "GND",
       "+3.3V",
       "Net-(U1-~{ALERT})",
-      "Alert",
       "D-",
       "unconnected-(LED1-DIN-Pad4)",
       "unconnected-(U4-IO18-Pad22)",
@@ -213,13 +212,12 @@
       "RDY",
       "V_Battery",
       "RXTX",
-      "unconnected-(U6-PB9-Pad62)",
       "unconnected-(U3-CRX1-Pad7)",
       "unconnected-(U3-LTX-Pad5)",
       "unconnected-(U3-NC-Pad9)",
       "unconnected-(U6-PA1-Pad15)",
       "TXRX",
-      "unconnected-(U6-PC11-Pad52)",
+      "unconnected-(U6-PB0-Pad26)",
       "Net-(LED61-DOUT)",
       "unconnected-(U6-PA13-Pad46)",
       "unconnected-(U6-PA2-Pad16)",
@@ -227,10 +225,9 @@
       "unconnected-(U6-PD1-Pad6)",
       "unconnected-(U6-PA3-Pad17)",
       "unconnected-(U6-PA0-Pad14)",
-      "unconnected-(U6-PB15-Pad36)",
       "unconnected-(U6-PA6-Pad22)",
       "unconnected-(U6-PD0-Pad5)",
-      "unconnected-(U6-PC10-Pad51)",
+      "unconnected-(U6-PB1-Pad27)",
       "NRST",
       "DC",
       "CS",
@@ -242,11 +239,17 @@
       "Net-(LED43-DOUT)",
       "Net-(LED57-DOUT)",
       "Column15",
-      "Net-(U5-IREF)",
-      "Net-(U5-IMIN)",
-      "PPR",
-      "CHG",
-      "Net-(U6-PA15)"
+      "SYS",
+      "Net-(J2-Pin_1)",
+      "Net-(U6-PA15)",
+      "Net-(U5-ISET)",
+      "Net-(U5-ILIM{slash}VSET)",
+      "Net-(U5-TS{slash}MR)",
+      "STAT1",
+      "STAT2",
+      "unconnected-(U6-PC4-Pad24)",
+      "ALERT",
+      "unconnected-(U6-PB15-Pad36)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -292,7 +295,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_57555555",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_f75fffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -315,6 +318,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -327,7 +332,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       162,
@@ -338,6 +345,8 @@
       91,
       91,
       71,
+      91,
+      91,
       91,
       91
     ],
