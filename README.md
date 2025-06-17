@@ -2,6 +2,9 @@
 ## Summary
   Creating a 65% Keyboard from scratch without any prior engineering knowledge.
 
+## Known Issues
+* Current Prod PCB does not have thermal copper pour for AMS1117-3.3. Thus RGB brightness needs to be tuned down to prevent component failure. Change this for v2.
+
 ## Next steps:
   * Write Software for ESP32 S3 Mini 1 and STM32
 
