@@ -2735,26 +2735,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 208.28 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ec50e12-e50f-4fb6-a2c6-aa3cade96da4")
-	)
-	(wire
-		(pts
-			(xy 208.28 113.03) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a64589e5-1038-4409-b228-a4056b0a20cf")
-	)
-	(wire
-		(pts
 			(xy 86.36 40.64) (xy 86.36 46.99)
 		)
 		(stroke
@@ -2825,6 +2805,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 113.03) (xy 213.36 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ebc0ce-d414-4527-8c56-2f2027981398")
+	)
+	(wire
+		(pts
 			(xy 166.37 104.14) (xy 158.75 104.14)
 		)
 		(stroke
@@ -2892,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "dda0ea19-2564-4c70-a1e4-83b77b7f8472")
+	)
+	(wire
+		(pts
+			(xy 208.28 116.84) (xy 208.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b61f54-141e-444a-a8f4-6f1e04f8ca79")
 	)
 	(wire
 		(pts
@@ -3029,6 +3029,28 @@
 			)
 		)
 	)
+	(global_label "V_Battery"
+		(shape input)
+		(at 208.28 116.84 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cd6b028-a793-4a04-b506-73d8bd4e0ca4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 208.28 128.5942 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 82.55 67.31 270)
@@ -3135,28 +3157,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "V_Battery"
-		(shape input)
-		(at 208.28 106.68 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ce9ee13-7d91-4e2f-a0a1-e103d69b7065")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.28 94.9258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5361,8 +5361,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 113.03 0)
-		(mirror y)
+		(at 208.28 110.49 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5370,7 +5370,7 @@
 		(dnp no)
 		(uuid "b5faaea7-59cf-46de-ad8c-e6f11be4e948")
 		(property "Reference" "#PWR0223"
-			(at 208.28 119.38 0)
+			(at 208.28 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5379,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 117.348 0)
+			(at 208.28 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +5387,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 113.03 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 113.03 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +5405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 113.03 0)
+			(at 208.28 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
