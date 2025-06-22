@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -103,7 +103,7 @@
       "unconnected-(U4-IO46-Pad44)",
       "unconnected-(U4-USB_D+-Pad24)",
       "unconnected-(U4-IO5-Pad9)",
-      "unconnected-(U4-IO0-Pad4)",
+      "Net-(U4-IO0)",
       "D+",
       "unconnected-(U4-IO17-Pad21)",
       "unconnected-(U4-IO15-Pad19)",
@@ -188,7 +188,7 @@
       "unconnected-(U4-IO42-Pad38)",
       "unconnected-(U4-IO12-Pad16)",
       "unconnected-(U4-IO3-Pad7)",
-      "unconnected-(U4-EN-Pad45)",
+      "Net-(U4-EN)",
       "unconnected-(U4-IO45-Pad41)",
       "unconnected-(U4-USB_D--Pad23)",
       "unconnected-(U4-IO10-Pad14)",

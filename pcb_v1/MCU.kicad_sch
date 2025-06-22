@@ -3426,6 +3426,12 @@
 		(uuid "a68efc86-d5a1-45da-871e-cfc8d0c1a88d")
 	)
 	(junction
+		(at 20.32 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa8e2676-4b0f-4f0d-b073-f1c6675387b0")
+	)
+	(junction
 		(at 127 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3478,6 +3484,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff85bbb5-0d61-4f75-be41-002b1738b19b")
+	)
+	(junction
+		(at 39.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd43f4e-be7a-4b53-9b26-f18cfe672747")
 	)
 	(wire
 		(pts
@@ -3588,6 +3600,16 @@
 			(type default)
 		)
 		(uuid "230a30f6-eb0a-4c9e-b104-1fad60802569")
+	)
+	(wire
+		(pts
+			(xy 16.51 68.58) (xy 16.51 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23685e77-78aa-41ee-80d6-b5789ff10230")
 	)
 	(wire
 		(pts
@@ -3821,6 +3843,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 76.2) (xy 24.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7081e2d3-b906-47a9-9246-554e04a505de")
+	)
+	(wire
+		(pts
 			(xy 127 45.72) (xy 127 49.53)
 		)
 		(stroke
@@ -3838,6 +3870,16 @@
 			(type default)
 		)
 		(uuid "7809ca85-52a7-44b1-ab61-f556bd936003")
+	)
+	(wire
+		(pts
+			(xy 20.32 62.23) (xy 20.32 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ce01249-6f29-4420-a20f-7927eb4c6cfb")
 	)
 	(wire
 		(pts
@@ -3901,6 +3943,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 60.96) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a3fb2e-98fd-44b5-8683-06113f3d3f6f")
+	)
+	(wire
+		(pts
 			(xy 45.72 44.45) (xy 45.72 40.64)
 		)
 		(stroke
@@ -3941,6 +3993,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 71.12) (xy 24.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae05fcd6-8522-4963-8a6b-b846c2fbdbf7")
+	)
+	(wire
+		(pts
 			(xy 144.78 167.64) (xy 146.05 167.64)
 		)
 		(stroke
@@ -3971,7 +4033,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 64.77) (xy 39.37 66.04)
+			(xy 20.32 62.23) (xy 39.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85d9add-2901-44da-963a-91fd259d6982")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4058,6 +4130,16 @@
 			(type default)
 		)
 		(uuid "e0c11801-3e5b-45c0-b382-0dcd1e545817")
+	)
+	(wire
+		(pts
+			(xy 16.51 62.23) (xy 20.32 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef85bd40-7ee2-447d-8e57-d7abca5ff2f4")
 	)
 	(wire
 		(pts
@@ -6117,16 +6199,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 39.37 64.77 0)
+		(at 39.37 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c6d890a-fee5-4f85-b7dc-c410b250cfaf")
 		(property "Reference" "#PWR024"
-			(at 39.37 68.58 0)
+			(at 39.37 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6216,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 39.37 59.69 0)
+			(at 39.37 56.642 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 64.77 0)
+			(at 39.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 64.77 0)
+			(at 39.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6242,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 39.37 64.77 0)
+			(at 39.37 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,6 +6467,75 @@
 			(project "pcb_v1"
 				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6/72f05775-4420-4660-b628-1f03fc3d3776"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 16.51 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6fc4611-a8d4-4b36-8376-b2e88e9ad98a")
+		(property "Reference" "R4"
+			(at 11.176 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 10.668 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
+			(at 18.288 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 16.51 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95414843-ea6e-40ca-b652-dc5297ef7448")
+		)
+		(pin "1"
+			(uuid "9dbaff83-dc21-43e6-afce-e760209b7914")
+		)
+		(instances
+			(project "pcb_v1"
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6/72f05775-4420-4660-b628-1f03fc3d3776"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6891,6 +7041,75 @@
 			(project "pcb_v1"
 				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6/72f05775-4420-4660-b628-1f03fc3d3776"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Resistor")
+		(at 20.32 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeeaa20a-f6ec-409b-8979-d179a9eb5c70")
+		(property "Reference" "R2"
+			(at 23.622 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 23.114 66.802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RC0402FR-7D4K7L:RESC1005X40N"
+			(at 22.098 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "883871f6-ae5e-485d-8184-f3c11ea1aef9")
+		)
+		(pin "1"
+			(uuid "7e5f26c0-3ee1-4483-9863-3160e481c2b3")
+		)
+		(instances
+			(project ""
+				(path "/bf36a815-88b9-4f95-84c3-6b01513341e6/72f05775-4420-4660-b628-1f03fc3d3776"
+					(reference "R2")
 					(unit 1)
 				)
 			)

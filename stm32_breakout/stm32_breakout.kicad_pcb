@@ -139,7 +139,7 @@
 		(at 126.6 71)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP6"
+		(property "Reference" "3.3V"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "31abf5ac-1d39-44da-85e5-e996dbfd86d0")
@@ -1497,7 +1497,7 @@
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
 		(property "Reference" "NRST"
-			(at 0 -1.998 0)
+			(at 0.2 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "5aa36dcd-6a4f-43ae-86c9-9d7aca2a694a")
 			(effects
@@ -1591,7 +1591,7 @@
 		(at 135.2 71)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP4"
+		(property "Reference" "RX"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "77781f05-a93d-4e4b-a728-e7918faa1ee5")
@@ -1855,7 +1855,7 @@
 		(at 122 71)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP5"
+		(property "Reference" "GND"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "4bea3f79-fd77-4631-9dea-a318e1d1982a")
@@ -2302,7 +2302,7 @@
 		(at 131 71)
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
-		(property "Reference" "TP3"
+		(property "Reference" "TX"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
 			(uuid "edd02222-2dfe-4968-bda4-4322ea2e865d")
@@ -2398,7 +2398,7 @@
 		(descr "THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm")
 		(tags "test point THT pad")
 		(property "Reference" "BOOT0"
-			(at -0.6 -2.2 0)
+			(at -0.4 -2 0)
 			(layer "F.SilkS")
 			(uuid "280a6db6-a358-4fba-80c3-e4c379dbb672")
 			(effects
