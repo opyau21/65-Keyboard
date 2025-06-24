@@ -1,5 +1,0 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"3.3V, GND, RX, TX",TestPoint_THTPad_D2.0mm_Drill1.0mm,4,TestPoint,
-C8,CAPC1005X55N,1,10uF,C49678
-C9,CAPC1005X55N,1,100nF,C49678
-U4,XCVR_ESP32-S3-MINI-1-N8,1,ESP32-S3-MINI-1,
