@@ -2203,16 +2203,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 121.92) (xy 201.93 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8dd2e34-ef1e-49b6-9c70-5e0923b5d342")
-	)
-	(wire
-		(pts
 			(xy 143.51 110.49) (xy 143.51 109.22)
 		)
 		(stroke
@@ -3455,70 +3445,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 201.93 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96a8221e-1244-4a24-86d0-cf77a3a99d82")
-		(property "Reference" "TP7"
-			(at 198.628 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.628 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f256c328-a186-4f77-9711-c68cce742ec9")
-		)
-		(instances
-			(project "esp32_breakout_board"
-				(path "/6bfc7a3d-a78e-4e3d-b5d4-ec241c5fd7b4"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 143.51 43.18 0)
 		(mirror y)
@@ -3644,73 +3570,6 @@
 			(project "esp32_breakout_board"
 				(path "/6bfc7a3d-a78e-4e3d-b5d4-ec241c5fd7b4"
 					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b33e30b5-fcf3-4fbc-a95b-c49eaf68b219")
-		(property "Reference" "#PWR09"
-			(at 210.82 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 208.28 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aefa704e-5a57-46f8-a987-4d5bc7f473d1")
-		)
-		(instances
-			(project "esp32_breakout_board"
-				(path "/6bfc7a3d-a78e-4e3d-b5d4-ec241c5fd7b4"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
