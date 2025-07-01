@@ -2532,6 +2532,19 @@
 		(layer "Edge.Cuts")
 		(uuid "ec746363-8a3b-41dd-ab45-4b43b9813e46")
 	)
+	(gr_text "ESP32-S3-Mini-1 UART"
+		(at 118.4 93.4 0)
+		(layer "F.SilkS")
+		(uuid "1887fb29-1742-4d87-9a6b-0e36107e7bb8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 138.3 76)
 		(end 138.3 78.8)

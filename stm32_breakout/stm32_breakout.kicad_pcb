@@ -3415,6 +3415,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f8f60a68-ab33-4200-b96d-48684e526582")
 	)
+	(gr_text "STM32F103R Breakout\n"
+		(at 111.2 50.2 270)
+		(layer "F.SilkS")
+		(uuid "17a5af17-648b-41bd-b08b-062704b63198")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 122 66.97)
 		(end 121.6 66.57)
@@ -4296,7 +4308,7 @@
 		)
 		(polygon
 			(pts
-				(xy 105.2 45.4) (xy 140.2 45.6) (xy 140.8 76.8) (xy 105.8 76.4)
+				(xy 105.8 45.2) (xy 140.4 45.2) (xy 140.4 76.4) (xy 105.8 76.4)
 			)
 		)
 		(filled_polygon
